@@ -17,7 +17,7 @@ function startVideo() {
   );
 }
 
-//Face Emotions Recognition
+//Face Emotions Recognition Listner
 video.addEventListener("play", () => {
   const canvas = faceapi.createCanvasFromMedia(video);
   document.body.append(canvas);
